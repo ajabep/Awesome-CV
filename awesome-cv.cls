@@ -359,6 +359,86 @@
   \def\@letterenclosure{#2}
 }
 
+%-------------------------------------------------------------------------------
+%                Commands to display some variables
+%-------------------------------------------------------------------------------
+% Display writer's name
+% Usage: \dispname
+% Usage: \dispfirstname
+% Usage: \displastname
+% Usage: \dispfamilyname
+\newcommand*{\dispname}{\@firstname\@lastname}
+\newcommand*{\dispfirstname}{\@firstname}
+\newcommand*{\displastname}{\@lastname}
+\newcommand*{\dispfamilyname}{\@lastname}
+
+% Display writer's address
+% Usage: \dispaddress
+\newcommand*{\dispaddress}{\@address}
+
+% Display writer's position
+% Usage: \dispname
+\newcommand*{\dispposition}{\@position}
+
+% Display writer's mobile (optional)
+% Usage: \dispmobile
+\newcommand*{\dispmobile}{\@mobile}
+
+% Display writer's email (optional)
+% Usage: \dispemail
+\newcommand*{\dispemail}{\@email}
+
+% Display writer's homepage (optional)
+% Usage: \disphomepage
+\newcommand*{\disphomepage}{\@homepage}
+
+% Display writer's github (optional)
+% Usage: \dispgithub
+\newcommand*{\dispgithub}{\@github}
+
+% Display writer's gitlab (optional)
+% Usage: \dispgitlab
+\newcommand*{\dispgitlab}{\@gitlab}
+
+% Display writer's stackoverflow profile (optional)
+% Usage: \dispstackoverflowusername
+\newcommand*{\dispstackoverflowusername}{\@stackoverflowname}
+
+% Display writer's linked-in (optional)
+% Usage: \displinkedin
+\newcommand*{\displinkedin}{\@linkedin}
+
+% Usage: \disptwitter
+\newcommand*{\disptwitter}{\@twitter}
+
+% Display writer's skype (optional)
+% Usage: \dispskype
+\newcommand*{\dispskype}{\@skype}
+
+% Display writer's reddit (optional)
+% Usage: \dispreddit
+\newcommand*{\dispreddit}{\@reddit}
+
+% Display writer's xing (optional)
+% Usage: \dispxing
+\newcommand*{\dispxing}{\@xing}
+
+% Display writer's extra informations (optional)
+% Usage: \dispextrainfo
+\newcommand*{\dispextrainfo}{\@extrainfo}
+
+% Display writer's quote (optional)
+% Usage: \dispquote
+\newcommand*{\dispquote}{\@quote}
+
+% Display recipient's name (cover letter only)
+% Usage: \disprecipientname
+\newcommand*{\disprecipientname}{\@recipientname}
+
+% Display the date for letter (cover letter only)
+% Usage: \displetterdate
+\newcommand*{\displetterdate}{\@letterdate}
+
 
 %-------------------------------------------------------------------------------
 %                Commands for extra
