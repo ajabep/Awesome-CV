@@ -380,54 +380,54 @@
 % Usage: \dispname
 \newcommand*{\dispposition}{\@position}
 
-% Display writer's mobile (optional)
+% Display writer's mobile
 % Usage: \dispmobile
 \newcommand*{\dispmobile}{\@mobile}
 
-% Display writer's email (optional)
+% Display writer's email
 % Usage: \dispemail
 \newcommand*{\dispemail}{\@email}
 
-% Display writer's homepage (optional)
+% Display writer's homepage
 % Usage: \disphomepage
 \newcommand*{\disphomepage}{\@homepage}
 
-% Display writer's github (optional)
+% Display writer's github
 % Usage: \dispgithub
 \newcommand*{\dispgithub}{\@github}
 
-% Display writer's gitlab (optional)
+% Display writer's gitlab
 % Usage: \dispgitlab
 \newcommand*{\dispgitlab}{\@gitlab}
 
-% Display writer's stackoverflow profile (optional)
+% Display writer's stackoverflow profile
 % Usage: \dispstackoverflowusername
 \newcommand*{\dispstackoverflowusername}{\@stackoverflowname}
 
-% Display writer's linked-in (optional)
+% Display writer's linked-in
 % Usage: \displinkedin
 \newcommand*{\displinkedin}{\@linkedin}
 
 % Usage: \disptwitter
 \newcommand*{\disptwitter}{\@twitter}
 
-% Display writer's skype (optional)
+% Display writer's skype
 % Usage: \dispskype
 \newcommand*{\dispskype}{\@skype}
 
-% Display writer's reddit (optional)
+% Display writer's reddit
 % Usage: \dispreddit
 \newcommand*{\dispreddit}{\@reddit}
 
-% Display writer's xing (optional)
+% Display writer's xing
 % Usage: \dispxing
 \newcommand*{\dispxing}{\@xing}
 
-% Display writer's extra informations (optional)
+% Display writer's extra informations
 % Usage: \dispextrainfo
 \newcommand*{\dispextrainfo}{\@extrainfo}
 
-% Display writer's quote (optional)
+% Display writer's quote
 % Usage: \dispquote
 \newcommand*{\dispquote}{\@quote}
 
