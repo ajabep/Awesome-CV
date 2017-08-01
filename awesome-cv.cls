@@ -285,6 +285,10 @@
 % Usage: \homepage{<url>}
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
 
+% Defines writer's GPG/PGP key (optional)
+% Usage: \gpg{<url>}
+\newcommand*{\gpg}[1]{\def\@gpg{#1}}
+
 % Defines writer's github (optional)
 % Usage: \github{<github-nick>}
 \newcommand*{\github}[1]{\def\@github{#1}}
@@ -391,6 +395,10 @@
 % Display writer's homepage
 % Usage: \disphomepage
 \newcommand*{\disphomepage}{\@homepage}
+
+% Display writer's GPG/PGP key
+% Usage: \dispgpg
+\newcommand*{\dispgpg}{\@gpg}
 
 % Display writer's github
 % Usage: \dispgithub
@@ -532,6 +540,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+        }%
+      \ifthenelse{\isundefined{\@gpg}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+		  \faKey\acvHeaderIconSep\@gpg%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
